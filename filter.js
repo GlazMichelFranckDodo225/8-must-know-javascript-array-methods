@@ -8,10 +8,8 @@ const items = [
     {name: "Keyboard", price: 25}
 ]
 
-// Returns the items whose prices are less or 
-// equal than 100
-const filteredItems = items.filter(item => {
-    return item.price <= 100
-})
+// Returns Items whose prices are greater or 
+// equal to 100
+const filteredItems = items.filter(item => item.price >= 100)
 
 console.log(filteredItems);
